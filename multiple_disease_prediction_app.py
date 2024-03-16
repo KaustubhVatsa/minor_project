@@ -5,15 +5,15 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 # Load the diabetes model
-with open('C:\\Users\\KIIT\\Desktop\\saved files minor\\diabetes_model.sav', 'rb') as file:
+with open('diabetes_model.sav', 'rb') as file:
     diabetes_model = pickle.load(file)
 
 # Load the heart disease model
-with open('C:\\Users\\KIIT\\Desktop\\saved files minor\\heart_disease_model.sav', 'rb') as file:
+with open('heart_disease_model.sav', 'rb') as file:
     heart_disease_model = pickle.load(file)
 
 # Load the Parkinson's model
-with open('C:\\Users\\KIIT\\Desktop\\saved files minor\\parkinsons_model.sav', 'rb') as file:
+with open('parkinsons_model.sav', 'rb') as file:
     parkinsons_model = pickle.load(file)
 
 
